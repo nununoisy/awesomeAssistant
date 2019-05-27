@@ -43,7 +43,7 @@ npm i speaker --mpg123-backend=pulse
 Now add this to your `rc.lua` (or somewhere in your Awesome config):
 
 ```lua
-local Assistant = require('assistant')
+local Assistant = require('awesomeAssistant')
 
 Assistant.init("/path/to/node", "/path/to/repo", "client_secret_XXXXXXXXXXXX-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.apps.googleusercontent.com.json")
 
